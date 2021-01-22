@@ -1,0 +1,328 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>SpeekLoud - Personal Blog Site HTML template</title>
+	
+	<meta name="description" content="Thanks for purchasing Speekloud. If you need any support, please contact with us.">
+	<meta name="author" content="CrazyCafe">
+	<meta name="copyright" content="CrazyCafe">
+	<meta name="generator" content="Documenter v1.6 http://rxa.li/documenter">
+	<meta name="date" content="2012-12-18T00:00:00+01:00">
+	
+	<link rel="stylesheet" href="css/documenter_style.css" media="all">
+	
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+	<script src="js/jquery.1.6.4.js"></script>
+	
+	<script src="js/jquery.scrollTo-1.4.2-min.js"></script>
+	<script src="js/jquery.easing.js"></script>
+	
+	
+	<script>document.createElement('section');var duration=500,easing='swing';</script>
+	<script src="js/script.js"></script>
+	
+	<style>
+		html{background-color:#ffffff;color:#383838;}
+		::-moz-selection{background:#111826;color:#D2FF00;}
+		::selection{background:#111826;color:#D2FF00;}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ol a{background-color:#F4B85C;color:#000;}
+		#documenter_sidebar ol{border-top:1px solid #fff; margin-top: 90px;}
+		#documenter_sidebar ol a{border-top:1px solid #fff;border-bottom:1px solid #fff;color:#000;}
+		#documenter_sidebar ol a:hover{background:#a7a7a7;color:#fff;border-top:1px solid #fff;}
+		#documenter_sidebar ol a.current{background:#ddd;color:#000;border-top:1px solid #fff;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body>
+	<div id="documenter_sidebar">
+		<ol id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Welcome</a></li>
+			<li><a href="#main">Main File Structure</a></li>
+			<li><a href="#html">Html Structure</a></li>
+			<li><a href="#css">Css Structure</a></li>
+			<li><a href="#javascripts">Javascripts</a></li>
+			<li><a href="#sliders">Sliders</a></li>
+			<li><a href="#sources_and_credits">Sources and Credits</a></li>
+			<li><a href="#support">Support</a></li>
+		</ol>
+		<div id="documenter_copyright">Copyright CrazyCafe 2016<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v1.6</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover"><h1>SpeekLoud - Personal Blog Site HTML template</h1><hr><ul><li>Created: 06/02/2016</li><li>Latest Update: 08/02/2016</li><li>By: CrazyCafe</li><li><a href="http://themeforest.net/user/CrazyCafe">themeforest.net/user/CrazyCafe</a></li><li>Email: CrazyCafe@gmail.com</li></ul><p>Thank you for purchasing our theme. SpeekLoud is creative personal blog template. If you have any question, please feel free to contact us.</p></section>
+
+<section id="main">
+
+<h3>File Structure</h3>
+<div>&nbsp;</div>
+All the file are well organized, its so easy to work with the template.
+<div>&nbsp;</div>
+1. Unpack the files.
+<div>&nbsp;</div>
+2. Open "Speekloud HTMLs" folder.
+<div>&nbsp;</div>
+3. Open one folder from the 3 versions.
+<div>&nbsp;</div>
+
+You will find the the index.html file on the root that will be edited.
+<div>&nbsp;</div>
+Also you will see 3 directories, css, js, fonts and img
+<div>&nbsp;</div>
+<strong>In the first folder Content you will find style.css and other styling files the all the other files expect the htmls.</strong>
+<div>&nbsp;</div>
+<strong>Js folder contain only the jquery library.</strong>
+<strong>Fonts folder contain essetial font files for fonts.</strong>
+
+</section>
+
+<section id="html">
+<h3> HTML </h3>
+<div>The base structure was organized by row, col-** class </div>
+<div>&nbsp;</div>
+<pre>
+<xmp style="font-size:15px;">
+<div class="container">
+    <div class="row">
+         <div class="top-area-content">
+			<div class="col-md-6">
+				<div class="logo text-left">
+					<img src="img/logo.png" alt="">
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="social-icon text-right">
+					<a href=""><i class="fa fa-facebook"></i></a>
+					<a href=""><i class="fa fa-twitter"></i></a>
+					<a href=""><i class="fa fa-pinterest"></i></a>
+					<a href=""><i class="fa fa-instagram"></i></a>
+					<a href=""><i class="fa fa-google-plus"></i></a>
+					<a href=""><i class="fa fa-rss"></i></a>
+				</div>
+			</div>
+		</div>
+    </div>
+</div>
+</xmp>
+</pre>
+<h4>Menu</h4>
+<div>&nbsp;</div>
+To add a new menu item you just need to add a new list element. In order to make the navigation work properly you need to set an anchor to the desired section of the page.
+<div>&nbsp;</div>
+<pre>
+<xmp style="font-size:15px;">
+	<div class="collapse navbar-collapse">
+		<nav>
+			<ul class="nav navbar-nav">                                                                                    
+				<li class="active"><a href="#home">Home</a></li>
+				<li><a href="about-me.html">About me</a></li>
+				<li><a href="category.html">Categories</a></li>
+				<li><a href="single-posts.html">Single posts</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</div><!-- navbar-collapse end -->
+</xmp>
+</pre>
+
+
+<h4>Change the images in different category items</h4>
+<div>&nbsp;</div>
+You can easily change the images in different section as sections have many similarities. Just replace your image with <b>img/category-img-1.jpg</b> tag.
+<div>&nbsp;</div>
+<pre>
+<xmp style="font-size:15px;">
+		<div class="category-img">
+			<img src="img/category-img-1.jpg" alt="">
+			<div class="category-overlay">
+			</div>
+		</div>
+</xmp>
+</pre>
+
+<h4>Change the images of different ad in category widget section</h4>
+<div>&nbsp;</div>
+You can easily change the images of different ad by replacing your image with <b>img/category-widget-ad.png</b> tag. 
+<div>&nbsp;</div>
+<pre>
+<xmp style="font-size:15px;">
+    <div class="category-widget-single">
+        <div class="category-widget-single-ad">
+            <a href=""><img src="img/category-widget-ad.png" alt=""></a>
+        </div>
+    </div>
+</xmp>
+</pre>
+
+<h4>Change the images of instagram section</h4>
+<div>&nbsp;</div>
+You can easily change the images of instagram by changing userId and accessToken. By creating a account in instagram you can get <b>userId</b> and <b>accessToken</b> and also you can maintain number of image by <b>limit</b> in your website.
+<div>&nbsp;</div>
+<pre>
+<xmp style="font-size:15px;">
+		var userFeed = new Instafeed({
+        get: 'user',
+        limit: "8",
+        userId: 11175379,
+        accessToken: '11175379.467ede5.f5ec3337edc941678b80d5eac0310213',
+        template: '<a href="{{link}}" target="_blank"><img src="{{image}}" /><div class="instagram-icon"><i class="fa fa-instagram"></i></div></a>'
+    });
+    userFeed.run();
+</xmp>
+</pre>
+
+<h4> Change the video and audio link in your blog</h4>
+<div>&nbsp;</div>
+Replace your expected links embed code in the <b>iframe</b> tag. By using height and width attribute you can maintain video and audio area in your blog.
+<div>&nbsp;</div>
+<pre>
+<xmp style="font-size:15px;">
+    <div class="video-area-border-content">
+		<div class="col-md-6">
+			<div class="video-area-content-detail">
+				<iframe src="https://www.youtube.com/embed/KGTfD6P7gu8"</iframe>
+			</div>
+		</div>
+	</div>
+</xmp>
+</pre>
+</section>
+
+<section id="css">
+
+<h3>CSS</h3>
+<div>&nbsp;</div>
+All the css files can be found in the content folder. The main css file is style.css that contain the major part of styling
+<div>&nbsp;</div>
+<pre>
+<xmp>
+        <!--============================== Bootstrap css ================================-->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!--============================== font-awesome css ================================-->
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <!--============================== google font css ================================-->
+        <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+        <!--============================== style css ================================-->
+        <link href="style.css" rel="stylesheet">
+        <!--============================== responsive css ================================-->
+        <link href="css/responsive.css" rel="stylesheet">
+        <!--============================ fevicon ===============================-->
+        <link rel="shortcut icon" type="image/png" href="img/fev-icon.ico">
+</xmp>
+</pre>
+
+<div>&nbsp;</div>
+</section>
+
+<section id="javascripts">
+<h3>Javascripts </h3>
+<div>&nbsp;</div>
+This is the main files that load most important javascripts of the website.
+<pre>
+<xmp>
+    <!-- Main jQuery Necessary for All Plug In -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        
+    <!-- Bootstrap js -->
+        <script src="js/bootstrap.min.js"></script>
+        
+    <!-- For instagram  -->    
+        <script src="js/instafeed.min.js"></script>
+        
+    <!-- For sticky-menu --> 
+        <script src="js/jquery.sticky.js"></script>   
+        
+    <!-- Active js -->    
+        <script src="js/active.js"></script>
+</xmp>
+</pre>
+</section>
+
+
+<section id="sliders">
+<h3>Sliders</h3><hr class="notop">
+<div>&nbsp;</div>
+    You can change the slider image and text with 2 steps. If you want to add new slide, you need new left and right slide control and now copy all contents from the div <b>"item"</b> and paste it. Change image link, texts with your one. Image size should be 1400px x 575px.
+<pre>
+<xmp>
+             <!-- ==================== Slider area start ==================== -->
+            
+    <section class="slider-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="carousel-example-generic" class="carousel slide carousel-fade" data-ride="carousel">
+                    <!-- Wrapper for slides -->
+						<div class="carousel-inner" role="listbox">
+						   <div class="item active">
+								<div class="slider-content">
+									<div class="col-md-5 col-md-offset-6 col-sm-8 col-sm-offset-2 col-xs-12">
+										<div class="slide-text-border-content">
+											<div class="slide-text">
+												<h2>Welcome To My Blog!</h2>
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidi dunt ut labore et dolore magna aliqua  ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidi dunt ut labore et dolore magna aliqua</p>
+												<a href="">read more</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="slider-content-2">
+									<div class="col-md-5 col-md-offset-6 col-sm-8 col-sm-offset-2 col-xs-12">
+										<div class="slide-text-border-content">
+											<div class="slide-text">
+												<h2>Welcome To My Blog!</h2>
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidi dunt ut labore et dolore magna aliqua  ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidi dunt ut labore et dolore magna aliqua</p>
+												<a href="">read more</a>
+											</div>
+										</div>
+									</div>
+								</div> 
+							</div>
+						</div>
+                        <!-- Controls -->
+                       <a class="left slide-control" href="#carousel-example-generic" role="button" data-slide="prev"><i class="fa fa-angle-right"></i>
+                       </a>
+                       <a class="right slide-control" href="#carousel-example-generic" role="button" data-slide="next"><i class="fa fa-angle-left"></i>
+                       </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+        <!-- ==================== Slider area end ==================== -->
+</xmp>
+</pre>
+
+</section>
+
+<section id="sources_and_credits">
+<h3>Sources and Credits</h3>
+<hr>
+<b>Icons:</b> <a href="https://fontawesome.github.io/Font-Awesome/">Font Awesome</a> <br>
+<b>Images:</b> <a href="https://stocksnap.io/">Stocksnap.io</a> <br>
+    
+<section id="support">
+<h3>Support</h3>
+<hr>
+<p>Thank you for reading the documentaion. If you still have any question or any problem, please contact with us. We will give you best support. Thanks.</p>
+<p>
+	<strong>CrazyCafe</strong></p>
+</section>
+
+	</div>
+</body>
+</html>

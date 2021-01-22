@@ -1,0 +1,665 @@
+<>
+  <meta charSet="utf-8" />
+  <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Personal Blog site</title>
+  {/*============================== Bootstrap css ================================*/}
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  {/*============================== font-awesome css ================================*/}
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+  {/*============================== google font css ================================*/}
+  <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" type="text/css" />
+  {/*============================== style css ================================*/}
+  <link href="style.css" rel="stylesheet" />
+  {/*============================ fevicon ===============================*/}
+  <link rel="shortcut icon" type="image/png" href="img/fev-icon.ico" />
+  {/*============================== responsive css ================================*/}
+  <link href="css/responsive.css" rel="stylesheet" />
+  {/*[if lt IE 9]>
+      
+      
+  <![endif]*/}
+  {/*============================== preloader================================*/}
+  <div id="preloader" />
+  {/*============================== top-area-start================================*/}
+  <section className="top-area">
+    <div className="container">
+      <div className="row">
+        <div className="top-area-content">
+          <div className="col-md-6 col-sm-6 col-xs-5">
+            <div className="logo text-left">
+              <a href="index.html"><img src="img/logo.png" alt /></a>
+            </div>
+          </div>
+          <div className="col-md-6 col-sm-6 col-xs-7">
+            <div className="social-icon text-right">
+              <a href><i className="fa fa-facebook" /></a>
+              <a href><i className="fa fa-twitter" /></a>
+              <a href><i className="fa fa-pinterest" /></a>
+              <a href><i className="fa fa-instagram" /></a>
+              <a href><i className="fa fa-google-plus" /></a>
+              <a href><i className="fa fa-rss" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {/*============================== menu-area-start ================================*/}
+  <section className="menu-area">
+    <div className="container">
+      <div className="row">
+        <div className="menu-area-content clearfix">
+          <div className="col-md-7 col-sm-9 col-xs-12">
+            <div className="main-menu text-left">
+              <div className="navbar-header">
+                <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span className="sr-only">Toggle navigation</span>
+                  <span className="icon-bar" />
+                  <span className="icon-bar" />
+                  <span className="icon-bar" />
+                </button>
+              </div>
+              <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul className="nav navbar-nav">                                       
+                  <li className="active">
+                    <a href="index.html">Home</a>
+                    <ul className="sub-menu clearfix"> 
+                      <li><a href="index.html">Standard Version</a></li>
+                      <li><a href="index-1.html">List-Item With Sidebar</a></li>
+                      <li><a href="index-2.html">Big-Item</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="about-me.html">About me</a></li>
+                  <li><a href="category.html">Categories</a></li>
+                  <li><a href="single-posts.html">Single posts</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </div>    
+            </div>
+          </div>
+          <div className="col-md-5 col-sm-3 col-xs-12">
+            <div className="search-btn text-right">
+              <form>
+                <input type="search" placeholder="Type to search here" />
+                <button type="submit"><i className="fa fa-search" /></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {/*============================== slider-area-start ================================*/}
+  <section className="slider-area">
+    <div className="container">
+      <div className="row">
+        <div className="col-md-12">
+          <div id="carousel-example-generic" className="carousel slide carousel-fade" data-ride="carousel">
+            {/* Wrapper for slides */}
+            <div className="carousel-inner" role="listbox">
+              <div className="item active">
+                <div className="slider-content">
+                  <div className="col-md-5 col-md-offset-6 col-sm-8 col-sm-offset-2 col-xs-12">
+                    <div className="slide-text-border-content">
+                      <div className="slide-text">
+                        <h2>Welcome To My Blog!</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidi dunt ut labore et dolore magna aliqua  ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidi dunt ut labore et dolore magna aliqua</p>
+                        <a href="category.html">read more</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="item">
+                <div className="slider-content-2">
+                  <div className="col-md-5 col-md-offset-6 col-sm-8 col-sm-offset-2 col-xs-12">
+                    <div className="slide-text-border-content">
+                      <div className="slide-text">
+                        <h2>Welcome To My Blog!</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidi dunt ut labore et dolore magna aliqua  ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidi dunt ut labore et dolore magna aliqua</p>
+                        <a href="single-posts.html">read more</a>
+                      </div>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+            </div>
+            {/* Controls */}
+            <a className="left slide-control" href="#carousel-example-generic" role="button" data-slide="prev"><i className="fa fa-angle-right" />
+            </a>
+            <a className="right slide-control" href="#carousel-example-generic" role="button" data-slide="next"><i className="fa fa-angle-left" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {/*============================== about-area-start ================================*/}
+  <section className="about-area">
+    <div className="container">
+      <div className="row">
+        <div className="col-md-12">
+          <div className="about-area-all-content">
+            <div className="about-area-content">
+              <div className="about-photo-content">
+                <img src="img/fahi.png" alt />
+              </div>
+              <div className="about-text-content">
+                <h4><a href="about-me.html">Hello, I’m Fahima!</a></h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum do retpariatur. </p>
+                <div className="social-link-about">
+                  <a href><i className="fa fa-facebook" /></a>
+                  <a href><i className="fa fa-twitter" /></a>
+                  <a href><i className="fa fa-pinterest" /></a>
+                  <a href><i className="fa fa-instagram" /></a>
+                  <a href><i className="fa fa-google-plus" /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {/*============================== categories-area-start ================================*/}
+  <section className="categories-area">
+    <div className="container">
+      <div className="row">
+        <div className="col-md-4 col-sm-6">
+          <div className="category-border-content">
+            <div className="category-detail">
+              <div className="category-img">
+                <img src="img/category-img-1.jpg" alt />
+                <div className="category-overlay">
+                </div>
+              </div>
+              <div className="category-text">
+                <a href className="art">Art / lifestyle</a>
+                <h4><a href="category.html">Todays Celebration</a></h4>
+                <span className="art">12 jan, 2016</span>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+                <div className="category-link"><a href="category.html">read more</a></div>
+                <div className="share-comment-section">
+                  <div className="comment">
+                    <i className="fa fa-heart-o"><span>25</span></i>
+                    <i className="fa fa-comment-o"><span>19</span></i>
+                  </div>
+                  <div className="share">
+                    <span>share:</span>
+                    <a href><i className="fa fa-facebook" /></a>
+                    <a href><i className="fa fa-twitter" /></a>
+                    <a href><i className="fa fa-pinterest" /></a>
+                    <a href><i className="fa fa-instagram" /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4 col-sm-6">
+          <div className="category-border-content">
+            <div className="category-detail">
+              <div className="category-img">
+                <img src="img/category-img-2.jpg" alt />
+                <div className="category-overlay">
+                </div>
+              </div>
+              <div className="category-text">
+                <a href className="art">Art / lifestyle</a>
+                <h4><a href="category.html">Family comes first</a></h4>
+                <span className="art">12 jan, 2016</span>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+                <div className="category-link"><a href="single-posts.html">read more</a></div>
+                <div className="share-comment-section">
+                  <div className="comment">
+                    <i className="fa fa-heart-o"><span>25</span></i>
+                    <i className="fa fa-comment-o"><span>19</span></i>
+                  </div>
+                  <div className="share">
+                    <span>share:</span>
+                    <a href><i className="fa fa-facebook" /></a>
+                    <a href><i className="fa fa-twitter" /></a>
+                    <a href><i className="fa fa-pinterest" /></a>
+                    <a href><i className="fa fa-instagram" /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4 col-sm-12">
+          <div className="row">
+            <div className="category-widget-single">
+              <div className="category-widget-single-detail">
+                <div className="category-title">
+                  <h4>Categories</h4>
+                </div>
+                <div className="category-list">
+                  <ul className="left-portion">
+                    <li><a href>Art/Lifestyle (18)</a></li>
+                    <li><a href>Music (25)</a></li>
+                    <li><a href>Travel/journey (21)</a></li>
+                    <li><a href>Food (36)</a></li>
+                  </ul>
+                  <ul className="right-portion">
+                    <li><a href>Photography (19)</a></li>
+                    <li><a href>Video (12)</a></li>
+                    <li><a href>Movie (19)</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="category-widget-single">
+              <div className="category-widget-single-ad">
+                <a href><img src="img/category-widget-ad.png" alt /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {/*============================== video-area-start ================================*/}
+  <section className="video-area">
+    <div className="container">
+      <div className="row">
+        <div className="col-md-8">
+          <div className="video-area-border-content">
+            <div className="col-md-6 col-sm-6">
+              <div className="video-area-content-detail">
+                <iframe width={100} height={320} src="https://www.youtube.com/embed/mZb_gat5YCY" allowFullScreen />
+              </div>
+            </div>
+            <div className="col-md-6 fix col-sm-6">
+              <div className="video-content-text">
+                <a href className="art">video</a>
+                <h4><a href="single-posts.html">Awesome video</a></h4>
+                <span className="art">12 jan, 2016</span>
+                <p>Lorem Ipsum is simply dummy text of the printing and typ setting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry....</p>
+                <div className="category-link"><a href="category.html">read more</a></div>
+                <div className="share-comment-section">
+                  <div className="comment">
+                    <i className="fa fa-heart-o"><span>25</span></i>
+                    <i className="fa fa-comment-o"><span>19</span></i>
+                  </div>
+                  <div className="share">
+                    <span>share:</span>
+                    <a href><i className="fa fa-facebook" /></a>
+                    <a href><i className="fa fa-twitter" /></a>
+                    <a href><i className="fa fa-pinterest" /></a>
+                    <a href><i className="fa fa-instagram" /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4">
+          <div className="instagram-content">
+            <div className="row">
+              <div className="col-md-12"><div className="instagram-title"><h4>Instagram</h4></div></div>
+            </div>
+            <div className="row">
+              <div className="col-md-12 col-sm-12">
+                <div id="instafeed" />
+              </div>
+            </div>
+            <div className="row">
+              <div className="follow-me-section">
+                <div className="follow-me-title"><h4>follow me on</h4></div>
+                <div className="follow-me-social-link">
+                  <a href><i className="fa fa-facebook" /></a>
+                  <a href><i className="fa fa-twitter" /></a>
+                  <a href><i className="fa fa-pinterest" /></a>
+                  <a href><i className="fa fa-instagram" /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>  
+  {/*============================== feature-post-area-start ================================*/}
+  <section className="feature-post-area">
+    <div className="container">
+      <div className="row">
+        <div className="col-md-4 col-sm-6">
+          <div className="category-border-content">
+            <div className="category-detail">
+              <div className="category-img">
+                <img src="img/feature-1.jpg" alt />
+                <div className="category-overlay">
+                </div>
+              </div>
+              <div className="category-text">
+                <a href className="art">food</a>
+                <h4><a href="category.html">yummy chocolate muffin</a></h4>
+                <span className="art">12 jan, 2016</span>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+                <div className="category-link"><a href="single-posts.html">read more</a></div>
+                <div className="share-comment-section">
+                  <div className="comment">
+                    <i className="fa fa-heart-o"><span>25</span></i>
+                    <i className="fa fa-comment-o"><span>19</span></i>
+                  </div>
+                  <div className="share">
+                    <span>share:</span>
+                    <a href><i className="fa fa-facebook" /></a>
+                    <a href><i className="fa fa-twitter" /></a>
+                    <a href><i className="fa fa-pinterest" /></a>
+                    <a href><i className="fa fa-instagram" /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4 col-sm-6">
+          <div className="category-border-content">
+            <div className="category-detail">
+              <div className="category-img">
+                <img src="img/feature-2.jpg" alt />
+                <div className="category-overlay">
+                </div>
+              </div>
+              <div className="category-text">
+                <a href className="art">travel/journey</a>
+                <h4><a href="single-posts.html">close to mountain</a></h4>
+                <span className="art">12 jan, 2016</span>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+                <div className="category-link"><a href="category.html">read more</a></div>
+                <div className="share-comment-section">
+                  <div className="comment">
+                    <i className="fa fa-heart-o"><span>25</span></i>
+                    <i className="fa fa-comment-o"><span>19</span></i>
+                  </div>
+                  <div className="share">
+                    <span>share:</span>
+                    <a href><i className="fa fa-facebook" /></a>
+                    <a href><i className="fa fa-twitter" /></a>
+                    <a href><i className="fa fa-pinterest" /></a>
+                    <a href><i className="fa fa-instagram" /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4 fix-1">
+          <div className="popular-post-border-content">
+            <div className="popular-post-content">
+              <div className="row">
+                <div className="col-md-12 col-sm-12">
+                  <div className="popular-post-title">
+                    <h4>Popular posts</h4>
+                  </div>
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-md-12 col-sm-12">
+                  <div className="popular-post-single top">
+                    <div className="popular-post-single-img"><a href><img src="img/popular-1.jpg" alt /></a></div>
+                    <div className="popular-post-single-text"><span>12 Jan, 2016</span><p>Yummy chocolate Muffin</p></div>
+                  </div>
+                  <div className="popular-post-single">
+                    <div className="popular-post-single-img"><a href><img src="img/popular-2.jpg" alt /></a></div>
+                    <div className="popular-post-single-text"><span>12 Jan, 2016</span><p>Music concert</p></div>
+                  </div>
+                  <div className="popular-post-single bottom">
+                    <div className="popular-post-single-img"><a href><img src="img/popular-3.jpg" alt /></a></div>
+                    <div className="popular-post-single-text"><span>12 Jan, 2016</span><p>new year celebration</p></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {/*============================== audio-area-start ================================*/}
+  <section className="audio-area">
+    <div className="container">
+      <div className="row">
+        <div className="col-md-8">
+          <div className="video-area-border-content">
+            <div className="col-md-6 col-sm-6">
+              <div className="video-area-content-detail">
+                <iframe width={100} height={320} src="https://www.youtube.com/embed/KGTfD6P7gu8" allowFullScreen />
+              </div>
+            </div>
+            <div className="col-md-6 fix col-sm-6">
+              <div className="video-content-text">
+                <a href className="art">music</a>
+                <h4><a href="category.html">top 10 music of this</a></h4>
+                <span className="art">12 jan, 2016</span>
+                <p>Lorem Ipsum is simply dummy text of the printing and typ setting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry....</p>
+                <div className="category-link"><a href="single-posts.html">read more</a></div>
+                <div className="share-comment-section">
+                  <div className="comment">
+                    <i className="fa fa-heart-o"><span>25</span></i>
+                    <i className="fa fa-comment-o"><span>19</span></i>
+                  </div>
+                  <div className="share">
+                    <span>share:</span>
+                    <a href><i className="fa fa-facebook" /></a>
+                    <a href><i className="fa fa-twitter" /></a>
+                    <a href><i className="fa fa-pinterest" /></a>
+                    <a href><i className="fa fa-instagram" /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> 
+  {/*============================== my-passion-area-start ================================*/}  
+  <section className="my-passion-area">
+    <div className="container">
+      <div className="row">
+        <div className="col-md-4 col-sm-6">
+          <div className="category-border-content">
+            <div className="category-detail">
+              <div id="carousel-example" className="carousel slide" data-ride="carousel">
+                <div className="carousel-inner" role="listbox">
+                  <div className="item active">
+                    <div className="category-img">
+                      <img src="img/my-passion-1.jpg" alt />
+                    </div>
+                  </div>
+                  <div className="item">
+                    <div className="category-img">
+                      <img src="img/category-img-1.jpg" alt />
+                    </div>
+                  </div>
+                </div>
+                <a className="left slide-control photograph" href="#carousel-example-generic" role="button" data-slide="prev"><i className="fa fa-angle-right" /></a>
+                <a className="right slide-control photograph" href="#carousel-example-generic" role="button" data-slide="next"><i className="fa fa-angle-left" /></a>
+              </div>
+              <div className="category-text">
+                <a href className="art">photography</a>
+                <h4><a href="single-posts.html">photography is my passion</a></h4>
+                <span className="art">12 jan, 2016</span>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+                <div className="category-link"><a href="category.html">read more</a></div>
+                <div className="share-comment-section">
+                  <div className="comment">
+                    <i className="fa fa-heart-o"><span>25</span></i>
+                    <i className="fa fa-comment-o"><span>19</span></i>
+                  </div>
+                  <div className="share">
+                    <span>share:</span>
+                    <a href><i className="fa fa-facebook" /></a>
+                    <a href><i className="fa fa-twitter" /></a>
+                    <a href><i className="fa fa-pinterest" /></a>
+                    <a href><i className="fa fa-instagram" /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4 col-sm-6">
+          <div className="category-border-content">
+            <div className="category-detail">
+              <div className="category-img">
+                <img src="img/my-passion-2.jpg" alt />
+                <div className="category-overlay">
+                </div>
+              </div>
+              <div className="category-text">
+                <a href className="art">movie</a>
+                <h4><a href="category.html">best movie</a></h4>
+                <span className="art">12 jan, 2016</span>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>
+                <div className="category-link"><a href="single-posts.html">read more</a></div>
+                <div className="share-comment-section">
+                  <div className="comment">
+                    <i className="fa fa-heart-o"><span>25</span></i>
+                    <i className="fa fa-comment-o"><span>19</span></i>
+                  </div>
+                  <div className="share">
+                    <span>share:</span>
+                    <a href><i className="fa fa-facebook" /></a>
+                    <a href><i className="fa fa-twitter" /></a>
+                    <a href><i className="fa fa-pinterest" /></a>
+                    <a href><i className="fa fa-instagram" /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>	
+        </div>    
+      </div>
+    </div>
+  </section>
+  {/*============================== asked-section-area-start ================================*/} 
+  <section className="asked-section-area">
+    <div className="container">
+      <div className="row">
+        <div className="col-md-8">
+          <div className="asked-section-border-content">
+            <div className="asked-section-content">
+              <span>20 Dec, 2015</span>
+              <p>Abraham <span>Asked :</span></p>
+              <h4>What is your favorite color?</h4>
+              <div className="comment-bar-border">
+                <div className="comment-text">
+                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque latis et quasi architecto beatae vitae dicta sunt explicabo. illo inventore veritatis et quasi architecto beatae vitae....</p>
+                  <span className="ask">#ask</span>
+                  <div className="comment-like">
+                    <p><i className="fa fa-heart-o" /><a href>5 likes</a></p>
+                    <p><i className="fa fa-comment-o" /><a href>10 comments</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {/*============================== footer-top-area-start ================================*/}  
+  <section className="footer-top-area">
+    <div className="container">
+      <div className="row">
+        <div className="col-md-2 col-sm-2">
+          <div className="footer-logo">
+            <a href="index.html"><img src="img/logo.png" alt /></a>
+          </div>
+          <div className="footer-content">
+            <p>get in touch</p>
+            <div className="footer-social-icon">
+              <a href><i className="fa fa-facebook" /></a>
+              <a href><i className="fa fa-twitter" /></a>
+              <a href><i className="fa fa-pinterest" /></a>
+              <a href><i className="fa fa-instagram" /></a>
+              <a href><i className="fa fa-google-plus" /></a>
+              <a href><i className="fa fa-rss" /></a>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-3 col-md-offset-1 col-sm-4 col-sm-offset-0">
+          <div className="subscription-input">
+            <h4 className="footer-title">subscription</h4>
+            <form action="#">
+              <input type="email" placeholder="Email" />
+              <input type="submit" defaultValue="Subscribe" />
+            </form>
+          </div>
+        </div>
+        <div className="col-md-3 col-md-offset-1 col-sm-4 col-sm-offset-0">
+          <div className="recent-post-content">
+            <h4 className="footer-title">recent post</h4>
+            <div className="recent-post-single">
+              <div className="recent-post-img">
+                <a href><img src="img/recent-1.jpg" alt /></a>
+              </div>
+              <div className="recent-post-text">
+                <span>01 jan, 2016</span>
+                <a href><p>celebration of new year</p></a>
+              </div>
+            </div>
+            <div className="recent-post-single">
+              <div className="recent-post-img">
+                <a href><img src="img/recent-2.jpg" alt /></a>
+              </div>
+              <div className="recent-post-text">
+                <span>01 jan, 2016</span>
+                <a href><p>color in nature</p></a>
+              </div>
+            </div>
+            <div className="recent-post-single">
+              <div className="recent-post-img">
+                <a href><img src="img/recent-3.jpg" alt /></a>
+              </div>
+              <div className="recent-post-text">
+                <span>01 jan, 2016</span>
+                <a href><p>yummy burgers</p></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-2 col-sm-2">
+          <div className="footer-category">
+            <h4 className="footer-title">category</h4>
+            <ul>
+              <li><a href>Art/lifestyle</a></li>
+              <li><a href>Music</a></li>
+              <li><a href>Travel/journey</a></li>
+              <li><a href>Food</a></li>
+              <li><a href>Photography</a></li>
+              <li><a href>video</a></li>
+              <li><a href>Movie</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> 
+  {/*============================== footer-top-area-start ================================*/}    
+  <section className="footer-bottom-area">
+    <div className="container">
+      <div className="row">
+        <div className="col-md-12">
+          <div className="footer-bottom-text text-center">
+            <p>Blog Design 2016 ©All Rights reserved</p>
+            <p>Designed by <span><a href="#">BootstrapCafe</a></span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {/*============================== Main jQuery ================================*/}
+  {/*============================== Bootstrap js ================================*/}
+  {/*============================== Custom js ================================*/}    
+  {/*============================== Active js ================================*/}    
+</>

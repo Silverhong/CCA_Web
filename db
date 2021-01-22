@@ -1,0 +1,119 @@
+users{
+    id
+    username
+    email
+    password
+    status
+    profile
+    role_id
+    createdAt
+    createdBy
+    updatedAt
+    updatedBy
+}
+
+roles{
+    id
+    name
+    description
+    createdAt
+    createdBy
+    updatedAt
+    updatedBy
+}
+
+permissions{
+    id
+    name
+    description
+    createdAt
+    createdBy
+    updatedAt
+    updatedBy
+}
+
+roleHasPermission{
+    role_id
+    permission_id
+}
+
+posts {
+    id
+    title
+    Barcode
+    thumbnail
+    description
+    category_id
+    status
+    createdAt
+    createdBy
+    updatedAt
+    updatedBy
+}
+
+postHasTag {
+    post_id
+    tag_id
+}
+
+tags{
+    id
+    name
+    icon
+    url
+    createdAt
+    createdBy
+    updatedAt
+    updatedBy
+}
+
+Menu {
+    id
+    name
+    description
+    created_date
+    created_by
+    updated_date
+    updated_by
+}
+
+MenuHasCategory {
+    menu_id
+    category_id
+}
+
+categories{
+    id
+    name
+    url
+    createdAt
+    createdBy
+    updatedAt
+    updatedBy
+}
+
+companies {
+    id
+    name
+    logo
+    address
+    phone
+    email
+    createdAt
+    createdBy
+    updatedAt
+    updatedBy
+}
+
+slides { 
+    id
+    title
+    content
+    image
+    createdAt
+    createdBy
+    updatedAt
+    updatedBy
+}
+
+

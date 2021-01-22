@@ -1,0 +1,1508 @@
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px -3px 20px grey;
+    height: auto;
+    background-color: #fff !important;
+}
+#preloader { 
+    position: fixed; 
+    left: 0; 
+    top: 0; 
+    z-index: 999; 
+    width: 100%; 
+    height: 100%; 
+    overflow: visible; 
+    background: #fff url('../img/preloader.gif') no-repeat center center;
+}
+.logo-top {
+    width: 222px;
+}
+.footer-top-area{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-shadow: 0px -1px 5px grey;
+    height: 8vh;
+    align-items: center;
+}
+
+.footer-menu {
+    width: 100%;
+    list-style: none;
+    margin-left: 1em;
+    padding-top: 15px;
+}
+.footer-menu li {
+    display: inline;
+    width: 100%;
+    list-style: none;
+    padding-left: 1em;
+}
+.footer-menu li a {
+    text-decoration: none;
+    color: rgb(116, 116, 116);
+}
+.footer-menu-copyright {
+    color: gray;
+    font-size: 14px;
+    padding-left: 4em;
+    font-weight: bold;
+}
+.home-banner{
+    width: 80%;
+    display: block;
+    margin-top: 15em;
+    position: relative;
+    left: 8em;
+}
+.home-text{
+    text-transform: uppercase;
+}
+.w {
+    font-size: 80px;
+    font-weight: bold;
+    color: rgb(116, 116, 116);
+    display: inline;
+}
+.cometo {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(116, 116, 116);
+    display: inline;
+}
+.cca {
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(242, 47, 47);
+    display: inline;
+}
+.cosmtic-assistatn {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(116, 116, 116);
+    display: inline;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.5);
+    font-size: 12px;
+    padding-top: 1em;
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* home screen  */
+    .home-text-group {
+        position: relative;
+        top: 4.5em;
+    }
+    .home-banner{
+        width: 90%;
+        display: none;
+        margin-top: 11em;
+        position: relative;
+        left: 1em;
+    }
+    .cosmtic-assistatn {
+        font-size: 30px;
+        font-weight: bold;
+        color: rgb(116, 116, 116);
+        display: inline;
+    }
+    .heightline {
+        position: relative;
+        top: 5px;
+        border-left: 320px solid #034fb3;
+        height: 3px;
+        margin-left: 0px;
+    }
+    .logo-top {
+        width: 260px;
+    }
+    .option-top{
+        font-size: 14px;
+        line-height: 2;
+    }
+    .option-bottom{
+        font-size: 14px;
+        line-height: 2;
+    }
+    .cometo {
+        font-size: 40px;
+        font-weight: bold;
+        color: rgb(116, 116, 116);
+        display: inline;
+    }
+    .cca {
+        font-size: 50px;
+        font-weight: bold;
+        color: rgb(242, 47, 47);
+        display: inline;
+    }
+    .w {
+        font-size: 50px;
+        font-weight: bold;
+        color: rgb(116, 116, 116);
+        display: inline;
+    }
+
+    /* ourpeople screen  */
+    .img-thumbnail-ourpeople {
+        width: 250px;
+        align-items: center;
+        padding-left: 59px;
+        position: relative;
+        top: 73px;
+    }
+    .ourpeople-title {
+        font-size: 30px;
+        text-align: justify;
+        line-height: 3.5;
+        position: relative;
+        top: -10px;
+        padding-top: 30px;
+        padding-left: 80px;
+    }
+    .img-thumbnail-ourpeople {
+        width: 250px;
+        align-items: center;
+        padding-left: 60px;
+        position: relative;
+        top: 34px;
+        left: 20px;
+    }
+    .ourpeople-area{
+        background: white;
+        box-shadow: 0px 0px 2px 0px #cccccc;
+        margin-top: 55px;
+        border-radius: 10px;
+    }
+    .partner {
+        font-size: 30px;
+        z-index: 10;
+        position: absolute;
+        top: 1.5em;
+        margin-left: 0em;
+        font-weight: bold;
+        color: gray;
+    }
+    .ourpeople-group-thumnail {
+        padding-left: 78px;
+        position: relative;
+        top: -3em;
+    }
+    .heightline-ourpeople {
+        position: relative;
+        top: 36px;
+        border-left: 320px solid #034fb3;
+        height: 3px;
+        margin-left: 0px;
+    }
+
+    /* Our Work Screen */
+    .heightline-ourwork {
+        position: relative;
+        top: 45px;
+        border-left: 320px solid #034fb3;
+        height: 3px;
+        margin-left: 0px;
+    }
+    .home-banner-ourwork {
+        width: 90%;
+        display: inline-block;
+        margin-top: 11em;
+        position: relative;
+        left: 1em;
+    }
+
+    .ourwork-one {
+        text-align: justify;
+        margin-top: 4em;
+        font-family: "Khmer OS Bokor";
+        font-size: 15px;
+    }
+    .ourwork-banner-top{
+        margin-top: 5em;
+    }
+
+    .ourwork-banner-bottom{
+        margin-top: 5em;
+        position: relative;
+        left: 0em;
+        display: none;
+    }
+
+    /* Contact Us Screen */
+    .heightline-contact{
+        position: relative;
+        top: 45px;
+        border-left: 320px solid #034fb3;
+        height: 3px;
+        margin-left: 0px;
+    }
+    .contact-box {
+        text-align: justify;
+        margin-top: 5em;
+        font-size: 14px;
+        background: #fff;
+        height: 35vh;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 2px 0px #ccc;
+        text-align: center;
+        font-family: "Khmer OS Bokor";
+    } 
+    .contact-title {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .contact-content-box {
+        font-size: 12px;
+    }
+    .contact-img{
+        width: 60%;
+    }
+
+    /* product screen */
+    .categories-area {
+        margin: 70px 0px 10px 0px;
+        font-family: "Khmer Os bokor";
+        line-height: 2;
+    }
+    .category-detail {
+        background: #fff;
+        -webkit-transition: 0.5s;
+                transition: 0.5s;
+    }
+    .category-border-content {
+        border: 1px solid #E5E3E3;
+        padding: 30px;
+        background: white;
+    }
+    .section-padding {
+        margin-bottom: 60px;
+    }
+      .category-border-content {
+        border: 1px solid #E5E3E3;
+        padding: 10px;
+        background: white;
+    }
+    .popular-post-content {
+        border: 1px solid #e5e3e3;
+    }
+    .category-title,  .popular-post-title {
+        background: url("img/widget-img.png");
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: auto auto;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .popular-post-single-text {
+        padding-left: 110px;
+        margin-top: 5px;
+    }
+    .popular-post-single-img {
+        float: left;
+    }
+    .popular-post-single-text > span {
+        color: #c3c3c3;
+        font-size: 8px;
+    }
+    .popular-post-single-text > p {
+        color: #2e2e2e;
+        font-size: 12px;
+        margin-top: 14px;
+        text-transform: uppercase;
+        -webkit-transition: 0.5s;
+                transition: 0.5s;
+        cursor: pointer;
+    }
+    .popular-post-single-text > p:hover {
+        color: #F4B85C;
+    }
+    .popular-post-single-text {
+        padding-left: 110px;
+        margin-top: 5px;
+        padding: 15px;
+    }
+    .popular-post-border-content {
+        border: 1px solid #e5e3e3;
+        padding: 15px;
+        background: white;
+    }
+    .popular-post-content {
+        border: 0px solid #e5e3e3;
+    }
+    .img-fluid {
+        max-width: 80%;
+        height: auto;
+        padding: 10px;
+    }
+    .art {
+        font-family: "Khmer Os bokor";
+        color: #909090;
+        font-size: 12px;
+        -webkit-transition:0.5s;
+                transition:0.5s
+    }
+    .category-img > img {
+        width: 100%;
+        height: 1%;
+    }
+    .category-img {
+        position: relative;
+    }
+    .category-img:hover .category-overlay {
+        opacity: 0.6;
+        filter: alpha(opacity=60);
+    }
+    .category-text-content{
+        width: 100%;
+    }
+    .category-text-content img {
+        width: 100%;
+    }
+    .category-text{
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    /* about us screen */
+    .about-information-area-border {
+        font-family: "Khmer Os bokor";
+        line-height: 2;
+        margin-top: 10px;
+        padding-top: 3em;
+        text-align: justify;
+    }
+    .heightline-about {
+        position: relative;
+        top: 45px;
+        border-left: 320px solid #034fb3;
+        height: 3px;
+        margin-left: 26px;
+    }
+    .partner {
+        font-size: 30px;
+        z-index: 10;
+        position: absolute;
+        top: 1.5em;
+        margin-left: 0em;
+        font-weight: bold;
+        color: gray;
+        left: 0.5em;
+    }
+
+    /* Publication screen */
+    .area-publication{
+        font-family: "Khmer Os bokor";
+        line-height: 2;
+        margin-top: 10px;
+        padding-top: 3em;
+        text-align: justify;
+    }
+    .heightline-publication {
+        position: relative;
+        top: 45px;
+        border-left: 320px solid #034fb3;
+        height: 3px;
+        margin-left: 20px;
+    }
+    .publication-information-area-border {
+        margin-top: 80px;
+        position: relative;
+        right: 1em;
+        list-style: none;
+    }
+    .publication-information-area-border li{
+        list-style: none;
+    }
+    .publication-img {
+        padding-left: 16px;
+        width: 100%;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* home screen  */
+    .home-text-group {
+        position: relative;
+        top: 5em;
+    }
+    .home-banner {
+        width: 80%;
+        display: block;
+        margin-top: 11em;
+        position: relative;
+        left: 2em;
+    }
+    .cosmtic-assistatn {
+        font-size: 30px;
+        font-weight: bold;
+        color: rgb(116, 116, 116);
+        display: inline;
+    }
+    .cometo {
+        font-size: 40px;
+        font-weight: bold;
+        color: rgb(116, 116, 116);
+        display: inline;
+    }
+    .cca {
+        font-size: 50px;
+        font-weight: bold;
+        color: rgb(242, 47, 47);
+        display: inline;
+    }
+    .w {
+        font-size: 50px;
+        font-weight: bold;
+        color: rgb(116, 116, 116);
+        display: inline;
+    }
+
+    /* ourpeople screen  */
+    .img-thumbnail-ourpeople {
+        width: 300px;
+        align-items: center;
+        padding-left: 59px;
+        position: relative;
+        top: 73px;
+    }
+    .ourpeople-title {
+        font-size: 30px;
+        text-align: justify;
+        line-height: 3.5;
+        position: relative;
+        top: 38px;
+        padding-top: 30px;
+        padding-left: 55px;
+    }
+    .ourpeople-group-thumnail {
+        font-size: 16px;
+        padding-left: 55px;
+        line-height: 1.5;
+    }
+    .ourpeople-area{
+        background: white;
+        box-shadow: 0px 0px 2px 0px #cccccc;
+        margin-top: 55px;
+        border-radius: 10px;
+    }
+    .partner {
+        font-size: 30px;
+        z-index: 10;
+        position: absolute;
+        top: 1.5em;
+        margin-left: 0em;
+        font-weight: bold;
+        color: gray;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* home screen  */
+    .home-banner {
+        width: 80%;
+        display: block;
+        margin-top: 15em;
+        position: relative;
+        left: 3em;
+    }
+
+    .heightline {
+        position: relative;
+        top: 4px;
+        border-left: 325px solid #034fb3;
+        height: 4px;
+        margin-left: 0px;
+    }
+    .cometo {
+        font-size: 44px;
+        font-weight: bold;
+        color: rgb(116, 116, 116);
+        display: inline;
+        position: relative;
+    }
+    .home-text-group {
+        position: relative;
+        top: 5em;
+    }
+    .cosmtic-assistatn {
+        font-size: 29px;
+        font-weight: bold;
+        color: rgb(116, 116, 116);
+        display: inline;
+    }
+    .logo-top {
+        width: 290px;
+    }
+
+    /* ourpeople screen  */
+    .img-thumbnail-ourpeople {
+        width: 255px;
+        align-items: center;
+        padding-left: 59px;
+        position: relative;
+        top: 1px;
+    }
+    .ourpeople-title {
+        font-size: 30px;
+        text-align: justify;
+        line-height: 3.5;
+        position: relative;
+        top: -8px;
+        padding-top: 30px;
+        padding-left: 0px;
+        right: 3.4em;
+    }
+    .ourpeople-group-thumnail {
+        font-size: 16px;
+        padding-left: 55px;
+        line-height: 1.5;
+        position: relative;
+        right: 9em;
+    }
+    .ourpeople-area {
+        background: white;
+        box-shadow: 0px 0px 2px 0px #cccccc;
+        margin-top: 55px;
+        border-radius: 10px;
+    }
+    .partner {
+        font-size: 30px;
+        z-index: 10;
+        position: absolute;
+        top: 1.5em;
+        margin-left: 0em;
+        font-weight: bold;
+        color: gray;
+    }
+    .heightline-ourpeople {
+        position: relative;
+        top: 36px;
+        border-left: 325px solid #034fb3;
+        height: 4px;
+        margin-left: 0px;
+    }
+
+    /* Our Work Screen */
+    .heightline-ourwork {
+        position: relative;
+        top: 45px;
+        border-left: 320px solid #034fb3;
+        height: 3px;
+        margin-left: 0px;
+    }
+    .home-banner-ourwork {
+        width: 90%;
+        display: inline-block;
+        margin-top: 11em;
+        position: relative;
+        left: 1em;
+    }
+    .ourwork-one {
+        text-align: justify;
+        margin-top: 4em;
+        font-family: "Khmer OS Bokor";
+        font-size: 14px;
+    }
+    .ourwork-banner-top {
+        margin-top: 14em;
+        width: 90%;
+        left: 1em;
+    }
+    .ourwork-banner-bottom {
+        margin-top: 1em;
+        position: relative;
+        left: 1em;
+        display: inline;
+    }
+
+    /* Contact Us Screen */
+    .heightline-contact{
+        position: relative;
+        top: 45px;
+        border-left: 320px solid #034fb3;
+        height: 3px;
+        margin-left: 0px;
+    }
+    .contact-box {
+        text-align: justify;
+        margin-top: 5em;
+        font-size: 14px;
+        background: #fff;
+        height: 28vh;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 2px 0px #ccc;
+        text-align: center;
+        font-family: "Khmer OS Bokor";
+    }
+    .contact-title {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .contact-content-box {
+        font-size: 12px;
+        line-height: 1.8;
+    }
+    .contact-img{
+        width: 70%;
+    }
+
+    /* product screen */
+    .categories-area {
+        margin: 70px 0px 10px 0px;
+        font-family: "Khmer Os bokor";
+        line-height: 2;
+    }
+    .category-detail {
+        background: #fff;
+        -webkit-transition: 0.5s;
+                transition: 0.5s;
+    }
+    .category-border-content {
+        border: 1px solid #E5E3E3;
+        padding: 30px;
+        background: white;
+    }
+    .section-padding {
+        margin-bottom: 60px;
+    }
+      .category-border-content {
+        border: 1px solid #E5E3E3;
+        padding: 10px;
+        background: white;
+    }
+    .popular-post-content {
+        border: 1px solid #e5e3e3;
+    }
+    .category-title,  .popular-post-title {
+        background: url("img/widget-img.png");
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: auto auto;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .popular-post-single-text {
+        padding-left: 110px;
+        margin-top: 5px;
+    }
+    .popular-post-single-img {
+        float: left;
+    }
+    .popular-post-single-text > span {
+        color: #c3c3c3;
+        font-size: 10px;
+    }
+    .popular-post-single-text > p {
+        color: #2e2e2e;
+        font-size: 12px;
+        margin-top: 14px;
+        text-transform: uppercase;
+        -webkit-transition: 0.5s;
+                transition: 0.5s;
+        cursor: pointer;
+    }
+    .popular-post-single-text > p:hover {
+        color: #F4B85C;
+    }
+    .popular-post-single-text {
+        padding-left: 110px;
+        margin-top: 5px;
+        padding: 15px;
+    }
+    .popular-post-border-content {
+        border: 1px solid #e5e3e3;
+        padding: 15px;
+        background: white;
+    }
+    .popular-post-content {
+        border: 0px solid #e5e3e3;
+    }
+    .img-fluid {
+        max-width: 80%;
+        height: auto;
+        padding: 10px;
+    }
+    .art {
+        font-family: "Khmer Os bokor";
+        color: #909090;
+        font-size: 12px;
+        -webkit-transition:0.5s;
+                transition:0.5s
+    }
+    .category-img > img {
+        width: 100%;
+        height: 1%;
+    }
+    .category-img {
+        position: relative;
+    }
+    .category-img:hover .category-overlay {
+        opacity: 0.6;
+        filter: alpha(opacity=60);
+    }
+    .category-text-content{
+        width: 100%;
+    }
+    .category-text-content img {
+        width: 100%;
+    }
+    .category-text{
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    /* about us screen */
+    .about-information-area-border {
+        font-family: "Khmer Os bokor";
+        line-height: 2;
+        margin-top: 10px;
+        padding-top: 3em;
+        text-align: justify;
+    }
+    .heightline-about {
+        position: relative;
+        top: 45px;
+        border-left: 320px solid #034fb3;
+        height: 3px;
+        margin-left: 26px;
+    }
+    .partner {
+        font-size: 30px;
+        z-index: 10;
+        position: absolute;
+        top: 1.5em;
+        margin-left: 0em;
+        font-weight: bold;
+        color: gray;
+        left: 0.5em;
+    }
+
+    /* Publication screen */
+    .area-publication{
+        font-family: "Khmer Os bokor";
+        line-height: 2;
+        margin-top: 10px;
+        padding-top: 3em;
+        text-align: justify;
+    }
+    .heightline-publication {
+        position: relative;
+        top: 45px;
+        border-left: 320px solid #034fb3;
+        height: 3px;
+        margin-left: 20px;
+    }
+    .publication-information-area-border {
+        margin-top: 80px;
+        position: relative;
+        right: 1em;
+        list-style: none;
+    }
+    .publication-information-area-border li{
+        list-style: none;
+    }
+    .publication-img{
+        padding-left: 16px;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* home screen  */
+    .home-banner {
+        width: 80%;
+        display: block;
+        margin-top: 15em;
+        position: relative;
+        left: 3em;
+    }
+
+    .heightline {
+        position: relative;
+        top: 4px;
+        border-left: 428px solid #034fb3;
+        height: 3px;
+        margin-left: 0px;
+    }
+    .cometo {
+        font-size: 44px;
+        font-weight: bold;
+        color: rgb(116, 116, 116);
+        display: inline;
+        position: relative;
+    }
+    .home-text-group {
+        position: relative;
+        top: 5em;
+    }
+    .logo-top {
+        width: 290px;
+    }    
+
+    /* ourpeople screen  */
+    .img-thumbnail-ourpeople {
+        width: 255px;
+        align-items: center;
+        padding-left: 59px;
+        position: relative;
+        top: -4px;
+        padding-top: 11px;
+    }
+    .ourpeople-content{
+        margin-top: 2%;
+        align-items: center;
+        margin-left: -20px;
+        color: gray;
+        text-align: justify;
+        position: relative;
+        right: 15em;
+    }
+    .ourpeople-title {
+        font-size: 30px;
+        text-align: justify;
+        line-height: 3.5;
+        position: relative;
+        top: 8px;
+        padding-top: 30px;
+        padding-left: 55px;
+    }
+    .ourpeople-group-thumnail {
+        font-size: 16px;
+        padding-left: 55px;
+        line-height: 1.5;
+    }
+    .ourpeople-area{
+        background: white;
+        box-shadow: 0px 0px 2px 0px #cccccc;
+        margin-top: 55px;
+        border-radius: 10px;
+    }
+    .partner {
+        font-size: 30px;
+        z-index: 10;
+        position: absolute;
+        top: 1.5em;
+        margin-left: 0em;
+        font-weight: bold;
+        color: gray;
+    }
+    .heightline-ourpeople {
+        position: relative;
+        top: 36px;
+        border-left: 325px solid #034fb3;
+        height: 4px;
+        margin-left: 0px;
+    }
+
+    /* Our Work Screen */
+    .heightline-ourwork {
+        position: relative;
+        top: 45px;
+        border-left: 320px solid #034fb3;
+        height: 3px;
+        margin-left: 0px;
+    }
+    .home-banner-ourwork {
+        width: 90%;
+        display: inline-block;
+        margin-top: 11em;
+        position: relative;
+        left: 1em;
+    }
+    .ourwork-one {
+        text-align: justify;
+        margin-top: 4em;
+        font-family: "Khmer OS Bokor";
+        font-size: 14px;
+    }
+    .ourwork-banner-top {
+        margin-top: 14em;
+        width: 90%;
+        left: 1em;
+    }
+    .ourwork-banner-bottom {
+        margin-top: 1em;
+        position: relative;
+        left: 1em;
+        display: inline;
+    }
+
+    /* Contact Us Screen */
+    .heightline-contact{
+        position: relative;
+        top: 45px;
+        border-left: 320px solid #034fb3;
+        height: 3px;
+        margin-left: 0px;
+    }
+    .contact-box {
+        text-align: justify;
+        margin-top: 5em;
+        font-size: 14px;
+        background: #fff;
+        height: 20vh;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 2px 0px #ccc;
+        text-align: center;
+        font-family: "Khmer OS Bokor";
+    }
+    .contact-title {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .contact-content-box {
+        font-size: 12px;
+        line-height: 1.8;
+    }
+    .contact-img{
+        width: 70%;
+    }
+
+    /* product screen */
+    .categories-area {
+        margin: 70px 0px 10px 0px;
+        font-family: "Khmer Os bokor";
+        line-height: 2;
+        text-align: justify;
+    }
+    .category-detail {
+        background: #fff;
+        -webkit-transition: 0.5s;
+                transition: 0.5s;
+    }
+    .category-border-content {
+        border: 1px solid #E5E3E3;
+        padding: 30px;
+        background: white;
+    }
+    .section-padding {
+        margin-bottom: 60px;
+    }
+      .category-border-content {
+        border: 1px solid #E5E3E3;
+        padding: 10px;
+        background: white;
+    }
+    .popular-post-content {
+        border: 1px solid #e5e3e3;
+    }
+    .category-title,  .popular-post-title {
+        background: url("img/widget-img.png");
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: auto auto;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .popular-post-single-text {
+        padding-left: 110px;
+        margin-top: 5px;
+    }
+    .popular-post-single-img {
+        float: left;
+    }
+    .popular-post-single-text > span {
+        color: #c3c3c3;
+        font-size: 10px;
+    }
+    .popular-post-single-text > p {
+        color: #2e2e2e;
+        font-size: 12px;
+        margin-top: 14px;
+        text-transform: uppercase;
+        -webkit-transition: 0.5s;
+                transition: 0.5s;
+        cursor: pointer;
+    }
+    .popular-post-single-text > p:hover {
+        color: #F4B85C;
+    }
+    .popular-post-single-text {
+        padding-left: 110px;
+        margin-top: 5px;
+        padding: 15px;
+    }
+    .popular-post-border-content {
+        border: 1px solid #e5e3e3;
+        padding: 15px;
+        background: white;
+    }
+    .popular-post-content {
+        border: 0px solid #e5e3e3;
+    }
+    .img-fluid {
+        max-width: 80%;
+        height: auto;
+        padding: 10px;
+    }
+    .art {
+        font-family: "Khmer Os bokor";
+        color: #909090;
+        font-size: 10px;
+        -webkit-transition:0.5s;
+                transition:0.5s
+    }
+    .category-img > img {
+        width: 100%;
+        height: 1%;
+    }
+    .category-img {
+        position: relative;
+    }
+    .category-img:hover .category-overlay {
+        opacity: 0.6;
+        filter: alpha(opacity=60);
+    }
+    .category-text-content{
+        width: 100%;
+    }
+    .category-text-content img {
+        width: 100%;
+    }
+    .category-text{
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    /* about us screen */
+    .about-information-area-border {
+        font-family: "Khmer Os bokor";
+        line-height: 2;
+        margin-top: 10px;
+        padding-top: 3em;
+        text-align: justify;
+    }
+    .heightline-about {
+        position: relative;
+        top: 45px;
+        border-left: 320px solid #034fb3;
+        height: 3px;
+        margin-left: 26px;
+    }
+    .partner {
+        font-size: 30px;
+        z-index: 10;
+        position: absolute;
+        top: 1.5em;
+        margin-left: 0em;
+        font-weight: bold;
+        color: gray;
+        left: 0.5em;
+    }
+
+    /* Publication screen */
+    .area-publication{
+        font-family: "Khmer Os bokor";
+        line-height: 2;
+        margin-top: 10px;
+        padding-top: 3em;
+        text-align: justify;
+    }
+    .heightline-publication {
+        position: relative;
+        top: 45px;
+        border-left: 320px solid #034fb3;
+        height: 3px;
+        margin-left: 20px;
+    }
+    .publication-information-area-border {
+        margin-top: 80px;
+        position: relative;
+        right: 1em;
+        list-style: none;
+    }
+    .publication-information-area-border li{
+        list-style: none;
+    }
+    .publication-img{
+        padding-left: 16px;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px){
+    #preloader { 
+        position: fixed; 
+        left: 0; 
+        top: 0; 
+        z-index: 999; 
+        width: 100%; 
+        height: 100%; 
+        overflow: visible; 
+        background: #fff url('../img/preloader.gif') no-repeat center center;
+    }
+    .option-top{
+        font-size: 17px;
+    }
+    .option-bottom{
+        font-size: 17px;
+    }
+
+    .logo-top {
+        width: 440px;
+        padding-left: 50px;
+    }
+    .home-banner{
+        width: 80%;
+        display: block;
+        margin-top: 15em;
+        position: relative;
+        left: 8em;
+    }
+    .home-text{
+        text-transform: uppercase;
+    }
+    .heightline {
+        position: relative;
+        top: 4px;
+        border-left: 405px solid #034fb3;
+        height: 5px;
+        margin-left: 3px;
+    }
+    .w {
+        font-size: 80px;
+        font-weight: bold;
+        color: rgb(116, 116, 116);
+        display: inline;
+    }
+    .cometo {
+        font-size: 50px;
+        font-weight: bold;
+        color: rgb(116, 116, 116);
+        display: inline;
+    }
+    .cca {
+        font-size: 60px;
+        font-weight: bold;
+        color: rgb(242, 47, 47);
+        display: inline;
+    }
+    .cosmtic-assistatn {
+        font-size: 40px;
+        font-weight: bold;
+        color: rgb(116, 116, 116);
+        display: inline;
+    }
+
+    .home-text-group {
+        margin-top: 15em;
+        margin-left: 4em;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: rgba(0,0,0,.5);
+        font-size: 15px;
+        font-weight: bold;
+        margin-left: 0.5em;
+    }
+    .navbar {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: .5rem 1rem;
+        box-shadow: 0px -3px 10px grey;
+        height: 10vh;
+    }
+
+    /* ourpeople screen  */
+    .img-thumbnail-ourpeople {
+        width: 255px;
+        align-items: center;
+        padding-left: 59px;
+        position: relative;
+        top: -4px;
+        padding-top: 11px;
+    }
+    .ourpeople-content{
+        margin-top: 2%;
+        align-items: center;
+        margin-left: -20px;
+        color: gray;
+        text-align: justify;
+        position: relative;
+        right: 15em;
+    }
+    .ourpeople-title {
+        font-size: 30px;
+        text-align: justify;
+        line-height: 3.5;
+        position: relative;
+        top: -8px;
+        padding-top: 30px;
+        padding-left: 0px;
+        right: 3em;
+    }
+    .ourpeople-group-thumnail {
+        font-size: 16px;
+        padding-left: 55px;
+        line-height: 1.5;
+        position: relative;
+        right: 9em;
+    }
+    .ourpeople-area {
+        background: white;
+        box-shadow: 0px 0px 5px 0px #cccccc;
+        margin-top: 55px;
+        border-radius: 10px;
+    }
+    .partner {
+        font-size: 30px;
+        z-index: 10;
+        position: absolute;
+        top: 1.5em;
+        margin-left: 0em;
+        font-weight: bold;
+        color: gray;
+    }
+    .heightline-ourpeople {
+        position: relative;
+        top: 36px;
+        border-left: 325px solid #034fb3;
+        height: 4px;
+        margin-left: 0px;
+    }
+
+    /* Our Work Screen */
+    .heightline-ourwork {
+        position: relative;
+        top: 45px;
+        border-left: 320px solid #034fb3;
+        height: 3px;
+        margin-left: 0px;
+    }
+    .home-banner-ourwork {
+        width: 90%;
+        display: inline-block;
+        margin-top: 11em;
+        position: relative;
+        left: 1em;
+    }
+    .ourwork-one {
+        text-align: justify;
+        margin-top: 4em;
+        font-family: "Khmer OS Bokor";
+        font-size: 14px;
+    }
+    .ourwork-banner-top {
+        margin-top: 11em;
+        width: 90%;
+        left: 1em;
+    }
+    .ourwork-banner-bottom {
+        margin-top: -1em;
+        position: relative;
+        left: 0em;
+        display: inline;
+    }
+
+    /* Contact Us Screen */
+    .heightline-contact{
+        position: relative;
+        top: 45px;
+        border-left: 320px solid #034fb3;
+        height: 3px;
+        margin-left: 0px;
+    }
+    .contact-box {
+        text-align: justify;
+        margin-top: 5em;
+        font-family: "Khmer OS Bokor";
+        font-size: 14px;
+        background: #fff;
+        height: 40vh;
+        padding: 48px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 2px 0px #ccc;
+        text-align: center;
+    }
+    .contact-title {
+        font-size: 22px;
+        font-family: "Khmer Os bokor";
+        margin-top: 20px;
+    }
+    .contact-content-box {
+        font-size: 15px;
+        line-height: 1.8;
+    }    
+    .contact-img{
+        width: 100%;
+    }
+
+    /* product screen */
+    .categories-area {
+        margin: 70px 0px 10px 0px;
+        font-family: "Khmer Os bokor";
+        line-height: 2;
+    }
+    .category-detail {
+        background: #fff;
+        -webkit-transition: 0.5s;
+                transition: 0.5s;
+    }
+    .category-border-content {
+        border: 1px solid #E5E3E3;
+        padding: 30px;
+        background: white;
+    }
+    .section-padding {
+        margin-bottom: 60px;
+    }
+      .category-border-content {
+        border: 1px solid #E5E3E3;
+        padding: 10px;
+        background: white;
+    }
+    .popular-post-content {
+        border: 1px solid #e5e3e3;
+    }
+    .category-title,  .popular-post-title {
+        background: url("img/widget-img.png");
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: auto auto;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .popular-post-single-text {
+        padding-left: 110px;
+        margin-top: 5px;
+    }
+    .popular-post-single-img {
+        float: left;
+    }
+    .popular-post-single-text > span {
+        color: #c3c3c3;
+        font-size: 10px;
+    }
+    .popular-post-single-text > p {
+        color: #2e2e2e;
+        font-size: 12px;
+        margin-top: 14px;
+        text-transform: uppercase;
+        -webkit-transition: 0.5s;
+                transition: 0.5s;
+        cursor: pointer;
+    }
+    .popular-post-single-text > p:hover {
+        color: #F4B85C;
+    }
+    .popular-post-single-text {
+        padding-left: 110px;
+        margin-top: 5px;
+        padding: 15px;
+    }
+    .popular-post-border-content {
+        border: 1px solid #e5e3e3;
+        padding: 15px;
+        background: white;
+    }
+    .popular-post-content {
+        border: 0px solid #e5e3e3;
+    }
+    .img-fluid {
+        max-width: 80%;
+        height: auto;
+        padding: 10px;
+    }
+    .art {
+        font-family: "Khmer Os bokor";
+        color: #909090;
+        font-size: 15px;
+        -webkit-transition:0.5s;
+                transition:0.5s
+    }
+    .category-img > img {
+        width: 100%;
+        height: 1%;
+    }
+    .category-img {
+        position: relative;
+    }
+    .category-img:hover .category-overlay {
+        opacity: 0.6;
+        filter: alpha(opacity=60);
+    }
+    .category-text-content{
+        width: 100%;
+    }
+    .category-text-content img {
+        width: 100%;
+    }
+    .category-text{
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    /* about us screen */
+    .about-information-area-border {
+        font-family: "Khmer Os bokor";
+        line-height: 2;
+        margin-top: 10px;
+        padding-top: 3em;
+        text-align: justify;
+    }
+    .heightline-about {
+        position: relative;
+        top: 45px;
+        border-left: 320px solid #034fb3;
+        height: 3px;
+        margin-left: 26px;
+    }
+    .partner {
+        font-size: 30px;
+        z-index: 10;
+        position: absolute;
+        top: 1.5em;
+        margin-left: 0em;
+        font-weight: bold;
+        color: gray;
+        left: 0.5em;
+    }
+
+    /* Publication screen */
+    .area-publication{
+        font-family: "Khmer Os bokor";
+        line-height: 2;
+        margin-top: 10px;
+        padding-top: 3em;
+        text-align: justify;
+    }
+    .heightline-publication {
+        position: relative;
+        top: 45px;
+        border-left: 320px solid #034fb3;
+        height: 3px;
+        margin-left: 20px;
+    }
+    .publication-information-area-border {
+        margin-top: 80px;
+        position: relative;
+        right: 1em;
+        list-style: none;
+    }
+    .publication-information-area-border li{
+        list-style: none;
+    }
+    .publication-img{
+        padding-left: 16px;
+    }
+}
