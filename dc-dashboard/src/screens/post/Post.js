@@ -10,6 +10,7 @@ import {
     CCardHeader,
     CDataTable
   } from '@coreui/react';
+import serviceAPI from '../../Service';
 
 class Post extends React.Component {
 
@@ -89,7 +90,7 @@ class Post extends React.Component {
                         'thumbnail':
                           (item)=>(
                             <td>
-                                <a href={`${ServiceApi}/uploads/${item.thumbnail}`}><img className="img-fluid rounded" width="60%" height="60%" src={`http://localhost:81/uploads/${item.thumbnail}`} /></a>
+                                <a href={`${ServiceApi}/uploads/${item.thumbnail}`}><img className="img-fluid rounded" width="60%" height="60%" src={`${serviceAPI}/uploads/${item.thumbnail}`} /></a>
                             </td>
                         ),
                         'createdAt':
